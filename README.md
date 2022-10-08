@@ -1,3 +1,2 @@
-# NTT-DATA-Diversidade-em-Tech
-<img src="https://hermes.digitalinnovation.one/tracks/cf84a1fb-27d1-48c0-847b-e4632ee16519.png" width="20%">
-O Bootcamp NTT DATA Diversidade em Tech traz uma trilha completa para introduzir profissionais em desenvolvimento front-end com HTML, CSS, JavaScript, Angular e AWS. Oferecido pela DIO.
+# Desafio de Projeto HTML
+Desafio de criar um site de uma clínica fictícia apenas usando apenas HTML com o mínimo de CSS.
