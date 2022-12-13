@@ -1,0 +1,10 @@
+*Configurando o usuário
+aws configure
+aws access key
+
+*Instalando o framework serverless
+npm i -g serverless
+serverless -> iniciando o projeto
+AWS - Node.js - REST API
+nome do projeto -> dio-live-serverless-project
+serverless deploy -> fazer o deploy
