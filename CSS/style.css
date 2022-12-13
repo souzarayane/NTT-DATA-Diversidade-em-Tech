@@ -1,0 +1,234 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 605px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    background-color: #000;
+    background-image: url('/assets/images/banner.png'); 
+    border-bottom: 2px solid #31A8DD;
+}
+
+#chamada01{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+#chamada01 img{
+    margin-top: 83px;
+    margin-bottom: 43px;
+}
+
+#chamada01 h1{
+    text-transform: uppercase;
+    font-size: 40px; 
+    font-weight: 900;
+    line-height: 47px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#chamada01 p{
+    width: 520px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#chamada01 button{
+    width: 350px;
+    height: 65px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.21em;
+    color: #31A8DD;
+    background: transparent;
+    border: 2px solid #31A8DD;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 16px;
+}
+
+#chamada01 button:hover{
+    background: #31A8DD;
+    color: #fff
+}
+
+#content{
+    width: 100%;
+    height: 605px;
+    background-color: #000;
+    border-bottom: 2px solid #31A8DD;
+}
+
+#chamada02{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#chamada02 h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    color:#33A8DB;
+    margin-top: 118px;
+    margin-bottom: 24px;
+}
+
+#chamada02 p{
+    width: 792px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align:center;   
+    color: #fff;
+}
+
+.frame5 {
+    width: 535px;
+    height: 60px;
+    display: flex;
+    border: 2px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+    background-color: #252525;
+    margin: 24px 0 24px 0;
+}
+
+.frame5 p{
+    width: 281px;
+    height: 19px;
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 127px;
+}
+
+.frame5 span{
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    color: #33A8DB;
+}
+
+#parallax{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    background-image: url('/assets/images/woman-code.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 393px;
+    border-bottom: 2px solid #31A8DD;
+}
+
+#parallax p{
+    width: 244px;
+    height: 141px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    text-shadow: 3px 2px 0px #33A8DB;
+    padding: 150px 100px;
+}
+
+#chamada03{
+    width: 100%;
+    height: 843px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #31A8DD;
+}
+
+#chamada03 h2{
+    color: #33A8DB;
+    width: 750px;
+    height: 76px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    font-family: 'Raleway';
+    line-height: 38px;
+    letter-spacing: 0.16em;
+    margin: 60px 32px;
+}
+
+#chamada03 p{
+    color: #fff;
+    width: 792px;
+    height: 76px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer{
+    background:  linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);;
+    background-color: #000;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer img{
+   margin-top: 59px;
+   margin-bottom: 15px;
+}
+
+footer p{
+    color: #fff;
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer a{
+    color: #33A8DB;
+    text-decoration: none;
+    font-weight: 700;
+}
